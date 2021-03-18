@@ -72,14 +72,15 @@ function game() {
     console.log(playRound())
     console.log(playRound())
 
-    if (playerScore > computerScore) {
-        console.log('You are a big winner!');
-    } else if (playerScore < computerScore) {
-        console.log('You are a big loser!');
-    } else {
-        console.log('Draw.');
-    }  
 }
 
 
 game()
+
+if (playerScore > computerScore) {
+    console.log('You are a big winner!');
+} else if (playerScore < computerScore) {
+    console.log( 'You are a big loser!');
+} else {
+    console.log('Draw.');
+}  
