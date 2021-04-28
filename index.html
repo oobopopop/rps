@@ -2,10 +2,53 @@
 <html>
 <head>
     <link rel="icon" href="favicon.ico?v=2"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/f22b1a539a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="wrapper">
+    <div class="row">
+      <div class="column">
+        <div class="column1">
+          PLAYER
+        </div>
+      </div>
+      <div class="column">
+        <div class="column2">
+          COMPUTER
+        </div>
+      </div>
+    </div>
+    <div class='row2'>
+      <div class='column'>
+        <div class='column1' id='pscore'>
+        </div>
+      </div>
+      <div class='column'>
+        <div class='column2' id='cscore'>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div id="flex-container">
+    <i class="far fa-hand-rock" id="rock"></i>
+    <i class="far fa-hand-paper" id="paper"></i>
+    <i class="far fa-hand-scissors" id="scissors"></i>
+    <div id="winner"></div>
+    <i id="frown"></i>
+    <i id="trophy"></i>
+    
+    
+  </div>
+  
+  <div id="round"></div>
+
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,79 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: dodgerblue;
+}
+
+.wrapper {
+    margin-top: 2em;
+    margin-bottom: 10em;
+    font-family: 'Graduate', cursive;
+}
+
+.row {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+  }
+
+.row2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    margin-top: 0.5em;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+
+#flex-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+    padding-left: 2em;
+    color: white;
+    font-size: 4em;
+}
+
+#round {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em; 
+    color: white;
+    font-size: 1.5em;
+}
+
+
+i {
+    color: white;
+    font-size: 2em; 
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+#trophy {
+  color: gold;
+}
+
+#frown {
+  color: white;
+}
